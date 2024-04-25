@@ -5,19 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nherter-web</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
 </head>
 
 <body>
-    <h1>Hallo, das ist meine erste Webseite und ich bin der Nicki!</h1>
-    <a href="/info">
-        <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round"
-                d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
-        </svg>
-    </a>
+        <section class="selection show-animate">
+            <h1 class="animate1">
+                Nikolaus A. Herter
+            </h1>
+            <p class="animate2">
+                Softwareengineer
+            </p>
+        </section >
 
+        <section class="selection show-animate">
+            <a href="/aboutme" id="button" class="animate1 button">
+                <span class="text">
+                    About Me 
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                </span>
+            </a>
+            <a href="curriculumvitae/" id="button" class="animate2 button">
+                Curriculum Vitae
+            </a>
+            <a href="/socialmedia" id="button" class="animate1 button">
+                Socialmedia
+            </a>
+        </section >
+
+
+        <linkbuttons>
+
+
+        </linkbuttons>
+
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
