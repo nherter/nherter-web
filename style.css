@@ -4,17 +4,44 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
 }
 
 li, a, img {
     font-family: "Montserreat", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 34px;
     color: #edf0f1;
     text-decoration: none;
+    background-color: #24252A;
 }
+
+.homeside {
+    display: grid;
+    place-content: center;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.upperspace {
+    height: 3in;
+}
+
+.welcome {
+    font-family: "Lobster", cursive;
+    color: plum;
+    font-size: 128px;
+    text-align: center;
+}
+
+.greetings {
+    font-family: "Montserreat", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
 header {
+    background-color: #24252A; 
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -23,7 +50,9 @@ header {
 
 .logo {
     cursor: pointer;
-    width: 20%;
+    max-width: 20%;
+    max-height: 10%;
+    background-color: #24252A;
 }
 
 .nav__links {
